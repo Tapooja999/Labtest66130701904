@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # โหลดโมเดล Decision Tree ที่บันทึกไว้
-model = joblib.load('Decision_Tree_model.pkl')
+model = joblib.load('model_penguin_66130701904.pkl')
 
 # สร้าง dictionary เพื่อแปลงจากผลลัพธ์ตัวเลขเป็นชื่อสายพันธุ์
 species_dict = {0: "Adelie", 1: "Chinstrap", 2: "Gentoo"}
